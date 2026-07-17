@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nina Slavnić/Portfolio</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    
+</head>
+<body>
+    <header id="navbar">
+        <h1 id="logo">
+            <a href="index.html">nina slavnić<span>/portfolio</span></a>
+        </h1>
+        <nav class="menu">
+            <a href="#omeni">o meni</a>
+            <a href="#radovi">radovi</a>
+            <a href="#pitanja">pitanja</a>
+            <a href="#kontakt">kontakt</a>
+        </nav>
+
+        <button class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+    </header>
+
+    <main>
+        <div id="baner">
+            <p>zdravo, <br> moje ime je nina i dobrodošli u moj<br><span>portfolio</span></p>
+        </div>
+        
+        <section id="omeni">
+            <article class="tehnicke-vestine">
+            <div class="vestine">
+                <img src="images/vestine.png" alt="Tehničke veštine">
+        
+            
+                <div class="vestine-tekst">
+                <h3>TEHNIČKE VEŠTINE</h3>
+                <p>
+                Adobe Illustrator - dizajn plakata<br> 
+                Adobe Photoshop - mockupovi<br>
+                Adobe XD, Figma - UI/UX dizajn <br>
+                Adobe InDesign - izrada biltena, brošure, flajera<br>
+                Adobe Affter Effects - montaža kratkog videa<br> 
+                Autodesk Inventor Professional - crtanje tehničkih crteža<br>
+                3Ds Max - 3D modelovanje sajamskog štanda<br> 
+                Unity - pravljenje 2D video igrice<br> 
+                Capcut - montaža kratkog videa <br>
+                Fotografija i likovne umetnosti<br>
+                Tipografija i kompozicija, marketing i preduzetništvo - kreiranje brenda i  vizuelnog indentiteta<br>
+                </p>
+                </div>
+            </div>
+            </article>
+
+            <article class="nina">
+            <div>
+                <img src="images/nina.png" alt="Nina Slavnić">
+            </div>
+
+            <h2>O MENI</h2>
+            <p>
+                Imam 23 godine i studiram Grafičko inženjerstvo i dizajn na Fakultetu tehničkih nauka u Novom Sadu. Trenutno se najviše bavim freelance radom za marketinšku agenciju, ali u slobodno vreme volim da usavršavam svoje veštine i učestvujem u različitim projektima i takmičenjima. Moj cilj je da svoju kreativnost pretvorim u ideje koje će da inspirišu ljude oko mene.
+            </p>
+            </article>
+        </section>
+
+        <section id="radovi">
+            <h2>RADOVI</h2>
+        <ul id="tabs">
+            <li><a href="#" name="tab1">UI/UX DESIGN</a></li>
+            <li><a href="#" name="tab2">3D MODELOVANJE</a></li>
+            <li><a href="#" name="tab3">VIDEO IGRA</a></li>
+            <li><a href="#" name="tab4">BRENDING</a></li>
+        </ul>
+
+        <div id="content">
+            <div id="tab1">
+
+                <button class="nav-arrow left" onclick="document.getElementById('tab1').scrollBy({left: -800, behavior: 'smooth'})">&#10094;</button>
+                <button class="nav-arrow right" onclick="document.getElementById('tab1').scrollBy({left: 800, behavior: 'smooth'})">&#10095;</button>
+
+
+                <div class="laptop item">
+                    <img src="images/laptop-pozadina.png" alt="Laptop">
+                    <p>Cilj ovog projekta bio je da se  na temu “Fitness aplikacija”  razvije nova fitness i mobilna  aplikacija. Odluka da  izaberemo fitness aplikaciju  namenjenu ženama, nije samo  rezultat trenutnih trendova u  zdravom načinu života, već je  proizvod iskustva, zajedničkih  ciljeva i inspiracije koje smo  pronašle unutar naše grupe.</p>
+                </div>
+
+                <div class="ui-mobiles item">
+                    <img src="images/mobilna_app_pozadina.png" class="ui-bg" alt="Pozadina">
+                    <p class="ui-text">U procesu izrade naše  fitness aplikacije odlučile  smo se za ženstven i  nežan dizajn, koji je  blizak našim sopstvenim  vrednostima i stilu života.</p>
+                    <img src="images/Iphone 8 Plus Mockup.png" class="phone-big" alt="Iphone 8 plus">
+                    <img src="images/Iphone 8 Mockup.png" class="phone-small" alt="Iphone 8">
+                </div>
+            </div>
+
+            <div id="tab2">
+
+                <button class="nav-arrow left" onclick="document.getElementById('tab2').scrollBy({left: -800, behavior: 'smooth'})">&#10094;</button>
+                <button class="nav-arrow right" onclick="document.getElementById('tab2').scrollBy({left: 800, behavior: 'smooth'})">&#10095;</button>
+
+
+              <div class="rem-wrapper">
+                <div class="rem-slike">
+                    <img src="images/r1.jpg" class="rem1" alt="Kozmetika">
+                    <img src="images/ruz1.png" class="ruz1" alt="Ruz1">
+                    <img src="images/ruz2.png" class="ruz2" alt="Ruz2">
+                </div>
+
+                <div class="rem-text">
+                    <p>Za R.E.M. brend od Ariane Grande sam se odlučila jer sam bila inspirisana metalik i futurističkim izgledom koji sam iskoristila u pravljenju materijala za 3D modele. Platforma je zamišljena  da bude izgrađena u 2 nivoa, od stakla, ukrašena kristalima koji osim ukrasa  imaju i ulogu svetla. Metalik nameštaj i pod daju futuristički stil koji privlači posetioce da isprobaju njene proizvode.</p>
+                </div>
+              </div>
+                <div class="rem-galerija">
+                    <img src="images/r2.png" alt="Slika 1">
+                    <img src="images/r3.png" alt="Slika 2">
+                    <img src="images/r4.png" alt="Slika 3">
+                    <img src="images/r5.png" alt="Slika 4">
+                    <img src="images/r6.png" alt="Slika 5">
+                </div>
+              
+            </div>
+            
+            <div id="tab3">
+
+                <button class="nav-arrow left" onclick="document.getElementById('tab3').scrollBy({left: -800, behavior: 'smooth'})">&#10094;</button>
+                <button class="nav-arrow right" onclick="document.getElementById('tab3').scrollBy({left: 800, behavior: 'smooth'})">&#10095;</button>
+
+              <div class="igrica-wrapper">
+                <section class="scene-toggle">
+
+                    <div class="scene-wrapper">
+                        <img
+                        src="images/scena_noc.png"
+                        alt="Night scene"
+                        class="scene active"
+                        id="sceneImage">
+
+                        <div class="toggle-button">
+                        <button id="themeToggle" aria-label="Toggle day and night">
+                        <img
+                        id="toggleIcon"
+                        src="images/night.png"
+                        alt="Moon"
+                        aria-hidden="true">
+                        </button>
+                        </div>
+                    </div>
+
+                    <div class="toggle-text">
+                        <p>I ako je igrica inspirisana filmom, kompletna grafika korišćena u igrici je  originalna. Jedan od glavnih aspekata filma jeste sama kuća koja je centar svih dešavanja u filmu, što smo zadržale i u našoj igrici. Moj zadatak je bio da dizajniram okruženje igrice, nivoe i UI elemente u igrici</p>
+                    </div>
+
+                </section>
+
+                <!-- <section class="gameplay">
+                  <video controls style="max-width: 100%; height: auto;">
+                    <source src="videos/Gameplay-Karolina.mp4" type="video/mp4">
+                  </video>
+                </section> -->
+
+                <section class="gameplay">
+                    <video controls preload="auto" playsinline style="max-width: 100%; height: auto;">
+                        <source src="videos/Gameplay-Karolina.mp4" type="video/mp4">
+                         Vaš browser ne podržava video format.
+                     </video>
+                </section>
+
+                <section class="table">
+                    <img src="images/tabla1.png" alt="tabla1">
+                    <img src="images/tabla2.png" alt="tabla2">
+                    <img src="images/tabla3.png" alt="tabla3">
+                    <img src="images/tabla4.png" alt="tabla4">
+                </section>
+              </div>
+            </div>
+            
+            
+            <div id="tab4">
+
+                <button class="nav-arrow left" onclick="document.getElementById('tab4').scrollBy({left: -800, behavior: 'smooth'})">&#10094;</button>
+                <button class="nav-arrow right" onclick="document.getElementById('tab4').scrollBy({left: 800, behavior: 'smooth'})">&#10095;</button>
+
+                <section class="formula-wrapper">
+                   <div class="formula">
+                    <figure>
+                        <p>Tim Crni Stršljeni je Formula  Student tim koji je osnovan  kao akademsko udruženje 2025. godine. Crni Stršljeni je tim ambicioznih studenata koji spajaju tehničko znanje,  strast prema  tehnologiji i inovativne ideje  kako bi kreirali  vrhunske inženjerske projekte.  Kao njihov grafički dizajner, moj zadatak je bio da  napravim kompletan vizuelni  indentitet - počevši od logoa.</p>
+                    </figure>
+
+                    <div class="pcela">
+                        <img src="images/stiker01.png" class="logo1" alt="Logo1">
+                        <img src="images/stiker002.png" class="logo2" alt="Logo2">
+                        <p>Kroz svaki grafički  proizvod koji sam pravila,  zadržan je jasno definisan stil, paleta boje i prepoznatljivi elementi. Narandžasta boja je  simbol kreativnosti, energije i entuzijazma i u  kombinaciji sa elegantnom crnom, daje  brendu Crni Stršljeni profesionalan izgled.</p>
+                    </div>
+                    </div>
+                    
+                </section>
+
+                    <div class="brosura">
+                        <img src="images/CelaBrosura.png" alt="Brosura">
+                        <img src="images/Zahvalnica-03.png" alt="Zahvalnica">
+                        <img src="images/ClanskaKarta.png" alt="Clanska Karta">
+                    </div>
+                
+
+                
+                    <figure class="patern">
+                        <div class="patern-inner">
+                            <img src="images/jez_pattern.png" alt="Jez">
+                            <h3>JEŽEVA KUĆICA</h3>
+                            <p>Ježeva kućica je kreativno družilište koje pruža kreativne radionice za decu od 4 do 12 godina. Osnovano u junu 2025. godine, Ježeva kućica je nov kreativni centar kojem je takođe bio potreban kompletan vizuelni indentitet.</p>
+                        </div>
+                    </figure>
+
+                <div class="jez-sekcija-container">
+
+                    <div class="jez">
+                        <p>Klijentkinje su mi dale potpunu slobodu kada je u pitanju bio stil i kreativan  pravac, i od nekoliko ponuđenih rešenja izabrale su upravo ovo. Jednostavan i razumljiv logo koji asocira na toplinu, dom, porodicu i detinjstvo. Tipografija je birana tako da asocira na dečiji rukopis, a paleta boja, praćena paternom, sadrži nežne šumske nijanse koje možemo pronaći u ježevom prirodnom okruženju</p>
+                    
+                        <div class="stikeri">
+                            <img src="images/stiker1.png" class="stiker1" alt="Stiker1">
+                            <img src="images/stiker2.png" class="stiker2" alt="Stiker2">
+                        </div>
+
+                    </div>
+
+                    <section class="carousel2">
+                       
+                            <div class="carousel-group">
+                                <img src="images/traka1.png" alt="Logo" class="card">
+                                <img src="images/traka2.png" alt="Paleta" class="card">
+                                <img src="images/traka3.png" alt="Stikeri" class="card">
+                                <img src="images/traka4.png" alt="Mockups" class="card">                 
+                            </div>
+
+                            <div aria-hidden class="carousel-group">
+                                <img src="images/traka1.png" alt="Logo" class="card">
+                                <img src="images/traka2.png" alt="Paleta" class="card">
+                                <img src="images/traka3.png" alt="Stikeri" class="card">
+                                <img src="images/traka4.png" alt="Mockups" class="card">                 
+                            </div>
+                    
+                    </section>
+                </div>
+                
+            </div>
+        </div>
+        </section>
+        
+
+        <div class="border">
+            <img src="images/border.png" alt="Border">
+        </div>
+
+        <section id="pitanja">
+            <figure>
+                <img src="images/washy_tape.png" alt="Washy Tape">
+                <h2>PITANJA</h2>
+            </figure>
+
+           <div class="faq">
+
+            <div class="faq-item">
+            <button class="faq-question">
+                Kako da me kontaktirate?
+                <img src="images/arrow.png" alt="Strelica">
+            </button>
+
+            <div class="faq-answer">
+            <p>Možete mi se javiti preko email-a, instagrama, whatsappa ili me diretko nazvati na broj telefona.</p>
+            </div>
+            </div>
+
+            <div class="faq-item">
+            <button class="faq-question">
+                Koje usluge nudim?
+                <img src="images/arrow.png" alt="Strelica">
+            </button>
+
+            <div class="faq-answer">
+            <p>UI/UX dizajn, web dizajn, print dizajn, brending i 3D modelovanje.</p>
+            </div>
+            </div>
+
+            <div class="faq-item">
+            <button class="faq-question">
+                Koliko traje jedan projekat?
+                <img src="images/arrow.png" alt="Strelica">
+            </button>
+
+            <div class="faq-answer">
+            <p>Svaki projekat je poseban. Samim tim, vreme izrade projekta zavisi od kompleksnosti i vrste projekta. Okvirno, izrada logo-a može trajati oko 7–10 dana, kompletan brending 2–4 nedelje, web dizajn 2–6 nedelja...</p>
+            </div>
+            </div>
+
+            <div class="faq-item">
+            <button class="faq-question">
+                Kako izgleda moj kreativni proces?
+                <img src="images/arrow.png" alt="Strelica">
+            </button>
+
+            <div class="faq-answer">
+            <p>Moj kreativan proces je jedinstven za svaki projekat ali ono što im je zajedničko jeste što započinje istraživanjem i izradom skica, uz konstantan feedback od klijenta.</p>
+            </div>
+            </div>
+
+            <div class="faq-item">
+            <button class="faq-question">
+                Šta vam je potrebno da počnemo sa radom?
+                <img src="images/arrow.png" alt="Strelica">
+            </button>
+
+            <div class="faq-answer">
+            <p>Pre nego što započnem sam proces rada, volim prvo od klijenta da dobijem neke osnovne informacije o njihovom brendu i viziji kao što su moodboard, brif, referentne slike, opis brenda, target publika…</p>
+            </div>
+            </div>
+
+            </div>
+        </section>
+
+        <section id="kontakt">
+
+            <form id="kontaktForma">
+                <input type="text" name="first-name" id="f-name" placeholder="Ime" required>
+
+                <input type="email" name="mail" id="e-mail" placeholder="E-mail" required>
+
+                <textarea name="idPoruka" id="poruka" rows="1" placeholder="Poruka" required></textarea>
+
+                <input type="submit" value="POŠALJI" id="myBtn">
+            </form>
+
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img src="images/modalni_prozor.png" class="modal-content" id="img01" alt="Modal Prozor">
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <footer>
+        <div class="footer-text">
+        <p>novi sad, srbija</p>
+        <p>ninaslavnic04@gmail.com</p>
+        <p>+381 64 9506097</p>
+
+        <a href="https://www.instagram.com/nina_slavnic" target="_blank">
+        <img src="images/instagram.png" alt="Instagram">
+        </a>
+        
+        <a href="mailto:ninaslavnic04@gmail.com">
+        <img src="images/gmail.png" alt="Email">
+        </a>
+        </div>
+
+        <p>&copy; nina slavnić, 2025</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script src="script.js" defer></script>
+
+</body>
+</html>
