@@ -152,6 +152,20 @@ nav a:hover {
   padding-left: 7%;
 }
 
+#baner p.desktop-note {
+    font-size: 0.75rem; /* Jako sitan tekst (12px) */
+    line-height: 1.4;
+    color: rgba(0, 0, 0, 0.65); /* Blago prozirna crna da ne bude previše napadna na roze pozadini */
+    max-width: 280px; /* Da lepo stane unutar širine koverte bez izlivanja sa strane */
+    text-align: center;
+    padding-left: 0; /* Poništavamo onih 2% sa glavnog teksta */
+
+    position: absolute;
+    top: 78%; /* Spušta tekst na donju trećinu ekrana, gde je dno koverte */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Savršeno centrira tekst po horizontali */
+}
+
 /* O MENI */
 #omeni {
   display: flex;
